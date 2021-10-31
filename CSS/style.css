@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.mainBody{
+    display: flex;
+    width: 100vw;
+}
+.leftSide{
+    display: flex;
+    background-color: lightgray;
+    width: 23vw;
+    height: 100vh;
+}
+.mainContent{
+    display: flex;
+    background-color: gray;
+    width: 54vw;
+    height: 100vh;
+}
+.rightSide{
+    display: flex;
+    background-color: lightgray;
+    width: 23vw;
+    height: 100vh;
+}
