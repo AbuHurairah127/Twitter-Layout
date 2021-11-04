@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* overflow: auto; */
 }
 .mainBody{
     display: flex;
@@ -9,12 +10,10 @@
 }
 .leftSide{
     border-right: 2px solid lightgray;
-    background-color: white;
     display: flex;
     flex-direction: column;
     /* background-color: lightgray; */
     width: 23vw;
-    height: 100vh;
 }
 .logo{
     font-size: 45px;
@@ -56,6 +55,7 @@
     width: 54vw;
     height: 100vh;
     border-right: 2px solid lightgray;
+    overflow: auto;
 }
 .mainContent .header{
     display: flex;
@@ -74,12 +74,14 @@
     color: rgb(29, 155, 240);
     font-size: 25px;
     padding: 5px 25px;
+    cursor: pointer;
 }
 .profileImg{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin: 10px 15px 0px 10px;
+    cursor: pointer;
 }
 .tweetInput{
     border: none;
@@ -99,6 +101,53 @@
 }
 .tweet{
     border-bottom: 10px solid lightgray;
+}
+.posts{
+    border-bottom: 2px solid lightgray;
+}
+.profileName{
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+    font-size: 17px;
+    font-family: 'Baloo 2', cursive;
+}
+.username{
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+    color: gray;
+    font-size: 12px;
+}
+.message{
+    padding: 0px 0px 5px 80px;
+    text-align-last: left;
+    position: relative;
+    bottom: 15px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.postoptions{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 5px 25px;
+}
+.postoption{
+    color: gray;
+    cursor: pointer;
+}
+.postoption:hover{
+    color: rgb(29, 155, 240);
+}
+.hashtag{
+    cursor: pointer;
+    color: rgb(29, 155, 240);
+}
+.postimg{
+    border-radius: 25px;
+    width: 85%;
+    margin: 0px 5px 5px 60px;
 }
 .rightSide{
     display: flex;
